@@ -1,0 +1,11 @@
+version: "2"
+services:
+
+    php:
+      build: ./build/php
+      volumes:
+        - ./www/:/var/www/html
+      ports:
+        - 90:80
+      domainname: newsletter.com
+      hostname: newsletter
