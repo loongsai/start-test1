@@ -78,17 +78,26 @@ $set2017=array(
 	array(11,'Where to Eat in Phuket November-December issue is out now','https://www.image-asia.com/newsletters/2017/november/wte006.htm',1,1),
 	array(12,'Everything Phuket in December by IMAGE asia','https://www.image-asia.com/newsletters/2017/december/index.htm',1,1),
 	array(12,'Kata Rocks cements the KRSR as a world-class yachting event','https://www.image-asia.com/newsletters/2017/december/kata-rocks-superyacht-rendezvous-2017.htm',2,1),
+	array(12,'Merry Christmas & Happy Year from IMAGE asia','https://www.image-asia.com/newsletters/2017/december/happy-new-year-2018.htm',3,1),
 	array(12,'Don\'t miss Thailand’s definitive marine and luxury lifestyle showcase.','https://www.image-asia.com/newsletters/2017/december/the-phuket-rendezvous.htm',2,1),
-	
 	
 );
 
 
 $set2018=array(
 	array(1,'Where to Eat in Phuket January-February issue is out now','https://www.image-asia.com/newsletters/2018/january/wte-is-out-issue96.htm',1,1),
-	array(2,'WINDOW on Phuket January-February issue is out now','https://www.image-asia.com/newsletters/2018/january/wop-is-out-issue111.htm',1,1),
+	array(1,'WINDOW on Phuket January-February issue is out now','https://www.image-asia.com/newsletters/2018/january/wop-is-out-issue111.htm',1,1),
+	array(2,'Everything Phuket in February by IMAGE asia','https://www.image-asia.com/newsletters/2018/february/index.htm',1,1),
+	array(2,'Your invitation to Join the Thailand Yacht Show 2018','https://www.image-asia.com/newsletters/2018/february/tys-dedicated-edm.htm',2,1),
+	array(3,'Where to Eat in Phuket March-April issue is out now','https://mailchi.mp/728c0e751ff4/where-to-eat-in-phuket-march-april-issue-is-out-now',1,2),	
+	array(3,'WINDOW on Phuket March-April issue is out now','https://mailchi.mp/a1e494517b30/window-on-phuket-march-april-issue-is-out-now',1,2),
+	array(4,'Everything Phuket in April by IMAGE asia','https://mailchi.mp/2f6022e81f56/everything-phuket-in-april-by-image-asia',1,2),
+	array(5,'Where to Eat in Phuket May-June issue is out now','https://mailchi.mp/f6861f414f62/where-to-eat-in-phuket-may-june-issue-is-out-now',1,2),
+	array(5,'WINDOW on Phuket May-June issue is out now','https://mailchi.mp/03c15b081dce/a42tg42eo3',1,2),
+	array(6,'Everything Phuket in June by IMAGE asia','https://mailchi.mp/1e365d950c78/everything-phuket-in-june-by-image-asia',1,2),
 	
-	
+	array(7,'Where to Eat in Phuket July-August issue is out now','',1,2),
+	array(7,'WINDOW on Phuket July-August issue is out now','',1,2),
 	
 	
 );
