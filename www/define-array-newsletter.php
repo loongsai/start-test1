@@ -96,8 +96,12 @@ $set2018=array(
 	array(5,'WINDOW on Phuket May-June issue is out now','https://mailchi.mp/03c15b081dce/a42tg42eo3',1,2),
 	array(6,'Everything Phuket in June by IMAGE asia','https://mailchi.mp/1e365d950c78/everything-phuket-in-june-by-image-asia',1,2),
 	
-	array(7,'Where to Eat in Phuket July-August issue is out now','',1,2),
-	array(7,'WINDOW on Phuket July-August issue is out now','',1,2),
+		
+	array(7,'15th Anniversary Cape Panwa Hotel Phuket Raceweek ready to set sail','https://mailchi.mp/7bc048cf0f42/15th-anniversary-cape-panwa-hotel-phuket-raceweek-ready-to-set-sail',2,2),
+	array(7,'Where to Eat in Phuket July-August issue is out now','https://mailchi.mp/6104ea746dbc/where-to-eat-in-phuket-july-august-issue-is-out-now',1,2),
+	array(7,'WINDOW on Phuket July-August issue is out now','https://mailchi.mp/ef752fe0a835/where-to-eat-in-phuket-july-august-issue-is-out-now-296441',1,2),
+	
+	array(8,'Everything Phuket in August by IMAGE asia','https://mailchi.mp/7247a4ba382c/everything-phuket-in-august-by-image-asia?e=c0e4b389e3',1,2),
 	
 	
 );

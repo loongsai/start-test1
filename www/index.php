@@ -42,7 +42,11 @@
 	
 	.panel-body li {
 	 margin-bottom:5px;
-	 
+	}
+	
+	.activ {
+	background-color:#337ab7;
+	color:#FFFFFF;
 	}
 	
 	</style>
@@ -133,8 +137,8 @@ include "define-array-newsletter.php";
 		
 		<div class="row" style="margin-top:30px; margin-bottom:30px;" >
 			<div class="col-xs-12" >
-				Filter: 
-				<button id="def"  type="button" class="btn btn-default">Default</button>
+				Type filter: 
+				<button id="def"  type="button" class="btn btn-default">Show all</button>
 				<button id="ian" type="button" class="btn btn-default">IA newsletter</button>
 				<button id="edm" type="button" class="btn btn-default">EDM</button>
 				<button id="oth" type="button" class="btn btn-default">Others</button>
@@ -365,13 +369,21 @@ include "define-array-newsletter.php";
 <script>
 	$(document).ready(function() {
 		
+		$("#def").addClass("activ");
+		
 		$("#def").click(function () {
 		
 			//console.log("default! clicked");
 			
 			$(".ian").removeClass("hide");
 			$(".edm").removeClass("hide");
-			$(".oth").removeClass("hide");		
+			$(".oth").removeClass("hide");
+			
+			$("#ian").removeClass("activ");
+			$("#edm").removeClass("activ");
+			$("#oth").removeClass("activ");
+			$("#def").addClass("activ");
+			
 		});
 
 		$("#ian").click(function () {
@@ -380,6 +392,13 @@ include "define-array-newsletter.php";
 			$(".ian").removeClass("hide");
 			$(".edm").addClass("hide");
 			$(".oth").addClass("hide");
+			
+			$("#ian").addClass("activ");
+			$("#edm").removeClass("activ");
+			$("#oth").removeClass("activ");			
+			$("#def").removeClass("activ");
+			
+			
 		});
 		
 		$("#edm").click(function () {
@@ -388,6 +407,12 @@ include "define-array-newsletter.php";
 			$(".ian").addClass("hide");
 			$(".edm").removeClass("hide");
 			$(".oth").addClass("hide");
+			
+			$("#ian").removeClass("activ");
+			$("#edm").addClass("activ");
+			$("#oth").removeClass("activ");			
+			$("#def").removeClass("activ");
+			
 		});
 		
 		$("#oth").click(function () {
@@ -395,7 +420,13 @@ include "define-array-newsletter.php";
 			//console.log("Others! clicked");
 			$(".ian").addClass("hide");
 			$(".edm").addClass("hide");
-			$(".oth").removeClass("hide");		
+			$(".oth").removeClass("hide");
+
+			$("#ian").removeClass("activ");
+			$("#edm").removeClass("activ");
+			$("#oth").addClass("activ");			
+			$("#def").removeClass("activ");
+			
 		});
 
 	});
